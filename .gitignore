@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+.venv/
+*.npy
+*.npz
+*.hdr
+*.mp4
+response_calibrations/
+response_detail/
+camera_check/
+video_check/

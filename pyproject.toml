@@ -1,0 +1,16 @@
+[project]
+name = "rheed-mef"
+version = "0.1.0"
+description = "Camera response calibration and multi-exposure fusion for RHEED imaging"
+readme = "README.md"
+requires-python = ">=3.11,<3.13"
+dependencies = [
+    "numpy>=1.26",
+    "scipy>=1.11",
+    "opencv-python>=4.8",
+    "PyQt6>=6.5",
+    "pyqtgraph>=0.13",
+]
+
+[tool.uv]
+package = false
